@@ -1,0 +1,5 @@
+configuration {
+    font: "Roboto Mono Medium 14";
+}
+
+@theme "style.rasi"

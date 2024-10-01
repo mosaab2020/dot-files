@@ -1,0 +1,21 @@
+live_config_reload = true
+# Themes --
+import = [ 
+  "~/.config/alacritty/themes/themes/lack.toml",
+]
+
+[window]
+padding.x = 0
+padding.y = 6
+dimensions = { columns = 134, lines = 32}
+resize_increments = true
+
+[font]
+normal = { family = "Roboto mono Nerd Font", style = "Regular" }
+bold = { family = "Roboto mono Nerd Font", style = "Bold" }
+italic = { family = "Roboto mono Nerd Font", style = "Italic" }
+bold_italic = { family = "Roboto mono Nerd Font", style = "Bold Italic" }
+
+size = 14
+
+

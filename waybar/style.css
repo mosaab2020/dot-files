@@ -1,0 +1,137 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: "Roboto Mono", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 0em;
+  transition: none;
+}
+
+window#waybar {
+  background-color: #101010;
+  color: #cccccc;
+  border-bottom: 1px solid #2a2a2a;
+  border-radius: 0em;
+}
+
+
+.modules-left {
+  background-color: #101010;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px solid #2a2a2a;
+  border-right: none;
+}
+
+
+.modules-right {
+  background-color: #101010;
+  padding: 0px 5px 0px 0px;
+  border-bottom: 1px solid #2a2a2a;
+  border-left: none;
+}
+
+
+#custom-scratch {
+  background-color: #101010;
+  color: #b8b8b8;
+  padding: 0px 8px 0px 8px;
+}
+
+#workspaces {}
+
+#workspaces button {
+  padding: 0px 8px 0px 8px;
+  min-width: 1px;
+  color: #bbbbbb;
+  border-radius: 0em;
+}
+
+#workspaces button.focused {
+  padding: 0px 8px 0px 8px;
+  background-color: #7788aa;
+  color: #101010;
+  border-radius: 0em;
+}
+
+#workspaces button.active {
+  padding: 0px 8px 0px 8px;
+  background-color: #7788aa;
+  color: #101010;
+  border-radius: 0em;
+}
+
+#workspaces button:hover {
+  padding: 0px 8px 0px 8px;
+  background-color: #7788aa;
+  color: #101010;
+}
+
+
+#mode {
+  background-color: #900000;
+  color: #ffffff;
+  padding: 0px 5px 0px 5px;
+  border: 1px solid #2f343a;
+}
+
+
+#window {
+  color: #cccccc;
+  background-color: #101010;
+  padding: 0px 10px 0px 10px;
+  border: none;
+}
+
+
+window#waybar.empty #window {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}
+
+
+/*window#waybar.empty {*/
+/*  background-color: #323232;*/
+/*}*/
+
+
+#network,
+#temperature,
+#backlight,
+#pulseudio,
+#battery {
+  padding: 0px 8px 0px 8px;
+}
+
+#backlight {
+  padding: 0px 5px 0px 5px;
+}
+
+#clock {
+  margin: 0px 8px 0px 8px;
+}
+
+
+#tray {
+  padding: 0px 8px 0px 5px;
+  margin: 0px 5px 0px 5px;
+}
+
+#language {
+  padding: 0px 8px 0px 5px;
+}
+
+#battery.warning {
+  background-color: inherit;
+  color: #ce858c;
+}
+
+#battery.critical {
+  background-color: inherit;
+  color: #ff5555;
+}
+
+
+#network.disconnected {
+  color: #ff5555;
+}
