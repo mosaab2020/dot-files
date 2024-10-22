@@ -57,7 +57,7 @@ mainbox {
 }
 
 inputbar {
-    background-color: @gray3;
+    background-color: @gray2;
     padding: 4px 8px;
     spacing: 16px;
     children: [ prompt, entry ];
@@ -113,7 +113,7 @@ element-text {
     text-color: @gray6;
 }
 element selected normal, element selected active {
-    background-color: @gray4;
+    background-color: @gray3;
     text-color: @gray1;
 }
 
