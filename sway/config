@@ -236,6 +236,7 @@ input * {
     xkb_layout "us,ara"
     xkb_options "ctrl:nocaps"
 }
+
 bindsym --release Caps_Lock exec "sleep 0.2 && swaymsg -- xkb_layout us && swaymsg input * xkb_variant ''"
 
 # Make the volume control work.
