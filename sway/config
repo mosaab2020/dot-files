@@ -219,7 +219,6 @@ bar {
 
     position bottom
 
-
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     colors {
@@ -264,6 +263,7 @@ client.focused #606060 #606060 #101010 #606060
 client.focused_inactive            #2a2a2a #2a2a2a #ffffff #2a2a2a
 # client.unfocused            #2a2a2a #2a2a2a #ffffff #2a2a2a
 client.unfocused            #222222 #222222 #ffffff #222222
+# client.unfocused            #101010 #101010 #ffffff #222222
 
 # Everything floats down here
 for_window [app_id="org.gnome.Calculator"] floating enable
