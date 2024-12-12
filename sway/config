@@ -32,6 +32,7 @@ set $menu rofi -show drun
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper-darkgray.png fill
 output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm.png fill
+# output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm_test.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper_black.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/bg fill
 # output * bg /usr/share/backgrounds/xfce/opole-sky.jpg fill
