@@ -7,6 +7,7 @@ resize_increments = true
 
 [font]
 normal = { family = "Roboto mono Nerd Font", style = "Regular" }
+# normal = { family = "Roboto mono Nerd Font", style = "Bold" }
 bold = { family = "Roboto mono Nerd Font", style = "Bold" }
 italic = { family = "Roboto mono Nerd Font", style = "Italic" }
 bold_italic = { family = "Roboto mono Nerd Font", style = "Bold Italic" }
