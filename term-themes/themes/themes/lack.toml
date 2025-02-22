@@ -1,0 +1,30 @@
+# LACKLUSTER COLORS
+[colors.primary]
+background = '#101010'
+
+[colors.normal]
+# black is gray0
+black = '#101010'
+red = '#BF616A'
+green = '#789978'
+yellow = '#ffAA88'
+blue = '#7788AA'
+magenta = '#B48EAD'
+# cyan is set to lack
+cyan = '#708090' 
+# white is set to luster
+white = '#DEEEED'
+
+
+# Bright colors
+[colors.bright]
+black = '#444444'
+red = '#ce858c'
+green = '#95af95'
+yellow = '#ffcebb'
+blue = '#96a3be'
+magenta = '#c8adc3'
+# cyan is set to lack
+cyan = '#8d9aa6' 
+# white is set to luster
+white = '#ffffff'
