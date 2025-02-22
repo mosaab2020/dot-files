@@ -114,9 +114,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 alias lockme='gtklock & systemctl sleep'
 alias zath='zathura'
 alias sac='z $(find ~ -type d -print | fzf)'
+alias fi='z $(find -type d -print | fzf)'
 alias battery='echo "${COLOR_GRAY6}Battery: $(cat /sys/class/power_supply/BAT*/capacity)%${COLOR_RESET}"'
 alias make50='make CC=clang CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow" LDLIBS="-lcrypt -lcs50 -lm"'
 
 # Created by `pipx` on 2024-10-27 05:23:26
 export PATH="$PATH:/home/thispc/.local/bin"
-
