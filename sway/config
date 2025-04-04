@@ -83,7 +83,7 @@ input "type:pointer" accel_profile flat
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym --to-code $mod+Shift+q kill
 
     # Start your launcher
     bindsym $mod+d exec $menu
@@ -164,7 +164,7 @@ input "type:pointer" accel_profile flat
     bindsym $mod+e layout toggle split
 
     # Make the current focus fullscreen
-    bindsym $mod+f fullscreen
+    bindsym --to-code $mod+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
@@ -259,6 +259,8 @@ bindsym $mod+BackSpace input "type:keyboard" xkb_switch_layout next
 bindsym $mod+Print exec sway-screenshot --mode output
 bindsym $mod+Shift+Print exec sway-screenshot --mode region
 
+# Lock the system
+bindsym $mod+Shift+s exec gtklock & systemctl sleep
 
 # disable window titlebar
 default_border pixel 2
