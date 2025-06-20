@@ -30,14 +30,16 @@ set $menu rofi -show drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-# output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper-darkgray.png fill
-output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm.png fill
+# default:
+output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm.png fill 
+# output * bg /home/thispc/Downloads/lines1.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm_test.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper_black.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/bg fill
 # output * bg /usr/share/backgrounds/xfce/opole-sky.jpg fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/Sway_Wallpaper_Blue_recolor_1920x1080.png fill
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper-darkgray.png fill
 #
 # Example configuration:
 #
@@ -238,6 +240,9 @@ input * {
 }
 
 # bindsym --release Caps_Lock exec "sleep 0.2 && swaymsg -- xkb_layout us && swaymsg input * xkb_variant ''"
+
+exec polkit-gnome-authentication-agent-1 &
+
 
 # Make the volume control work.
 bindsym $mod+F6 exec pactl set-sink-mute @DEFAULT_SINK@ toggle

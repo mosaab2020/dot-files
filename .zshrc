@@ -13,6 +13,9 @@ fi
 
 source "${ZINIT_HOME}/zinit.zsh"
 
+# ensure your shell’s LANG or LC_ALL is UTF-8
+export LANG=en_US.UTF-8
+
 
 # Add in Powerlevel10k
 # zinit ice depth=1; zinit light romkatv/powerlevel10k
@@ -48,10 +51,10 @@ export COLOR_GRAY9=$'\x1b[38;2;221;221;221m'
 # You can use these colors in your scripts...
 # echo "${COLOR_BLUE}Some message${COLOR_RESET}"
 
-date=$(date '+%Y-%m-%d')
-timeVar=$(date '+%X')
+# date=$(date '+%Y-%m-%d')
+# timeVar=$(date '+%X')
 # # You can use these colors in your scripts...
-echo "${COLOR_GRAY6}$date | $timeVar | battery: $(cat /sys/class/power_supply/BAT*/capacity)%${COLOR_RESET}"
+# echo "${COLOR_GRAY6}$date | $timeVar | battery: $(cat /sys/class/power_supply/BAT*/capacity)%${COLOR_RESET}"
 # echo "${COLOR_GRAY6}${COLOR_RESET}"
 
 #---- PROMPT ---- ##############################################
@@ -111,11 +114,22 @@ export VISUAL=nvim
 # alias
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# sleep and lock
 alias lockme='gtklock & systemctl sleep'
-alias zath='zathura'
-alias sac='z $(find ~ -type d -print | fzf)'
+
+# search for directorys from the root directory
+alias sac='z $(find / -type d -print | fzf)'
+
+# search for directorys in the current directory
 alias fid='z $(find -type d -print | fzf)'
+
+# see the battery percentage
 alias battery='echo "${COLOR_GRAY6}Battery: $(cat /sys/class/power_supply/BAT*/capacity)%${COLOR_RESET}"'
+
+# copy the current path
+alias cdpwd='pwd | wl-copy'
+
+# make for cs50
 alias make50='make CC=clang CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow" LDLIBS="-lcrypt -lcs50 -lm"'
 
 # Created by `pipx` on 2024-10-27 05:23:26
