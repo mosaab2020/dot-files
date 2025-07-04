@@ -27,6 +27,17 @@ set $term alacritty
 # on the original workspace that the command was run on.
 set $menu rofi -show drun
 
+
+### Notifications
+
+# Notification Daemon
+exec swaync
+
+# Toggle control center
+bindsym $mod+Shift+n exec swaync-client -t -sw
+
+
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -46,6 +57,8 @@ output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm.png fill
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+output * allow_tearing no
+output * max_render_time off
 
 ### Idle configuration
 #
@@ -261,8 +274,10 @@ bindsym $mod+Up exec busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay U
 bindsym $mod+BackSpace input "type:keyboard" xkb_switch_layout next 
 
 # Make a screenshot
-bindsym $mod+Print exec sway-screenshot --mode output
-bindsym $mod+Shift+Print exec sway-screenshot --mode region
+# bindsym $mod+Print exec sway-screenshot --mode output
+# bindsym $mod+Shift+Print exec sway-screenshot --mode region
+bindsym $mod+Print exec sway-screenshot -o /home/$USER/Pictures/screenshots -m output
+bindsym $mod+Shift+Print exec sway-screenshot -o /home/$USER/Pictures/screenshots -m region
 
 # Lock the system
 bindsym $mod+Shift+s exec gtklock & systemctl sleep
