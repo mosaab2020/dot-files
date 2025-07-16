@@ -34,15 +34,22 @@ set $menu rofi -show drun
 exec swaync
 
 # Toggle control center
-bindsym $mod+Shift+n exec swaync-client -t -sw
+bindsym --to-code $mod+Shift+n exec swaync-client -t -sw
 
 
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+
 # default:
 output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm.png fill 
+
+# al jalani background
+# output * bg /home/thispc/Documents/themes/fav-wallpapers/288942.jpg fill 
+
+# other 
+# output * bg /home/thispc/Documents/themes/fav-wallpapers/images.jpg fill 
 # output * bg /home/thispc/Downloads/lines1.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/dark_swaywm_test.png fill
 # output * bg /home/thispc/Documents/themes/fav-wallpapers/wallpaper_black.png fill
