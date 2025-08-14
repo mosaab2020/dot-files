@@ -1,0 +1,137 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAAAAAAAAAAAAVVAAAC/wAAAAAABAAABVYAAAAAAAAAAAAABVUAAAL/"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x06A5",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "lookup_location": "Google dictionary",
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEEAAADAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAADAAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAALkAAAAmgD///8AAAABAAACVgAAAwD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAAAwAAAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAAAAAMAAAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAAFVgAAAwAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {},
+  "session_data": {
+    "base_font_size": 20,
+    "columns_per_screen": {
+      "landscape": 2,
+      "portrait": 0
+    },
+    "controls_footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "system",
+    "footer": {
+      "left": "menu-icon-on-hover",
+      "middle": "page-list",
+      "right": "progress"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "menu-icon-on-hover"
+    },
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "lines_per_sec_auto": 0.5999999999999996,
+    "margin_bottom": 15,
+    "margin_left": 15,
+    "margin_right": 15,
+    "margin_top": 15,
+    "read_mode": "paged",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Caroline Kepnes"
+        ],
+        "key": "/home/thispc/Calibre Library/Caroline Kepnes/You (4)/You - Caroline Kepnes.epub",
+        "pathtoebook": "/home/thispc/Calibre Library/Caroline Kepnes/You (4)/You - Caroline Kepnes.epub",
+        "timestamp": "2025-08-12T14:18:12.689Z",
+        "title": "You"
+      },
+      {
+        "authors": [
+          "Jasmine Warga"
+        ],
+        "key": "/home/thispc/Calibre Library/Jasmine Warga/My Heart and Other Black Holes (3)/My Heart and Other Black Holes - Jasmine Warga.epub",
+        "pathtoebook": "/home/thispc/Calibre Library/Jasmine Warga/My Heart and Other Black Holes (3)/My Heart and Other Black Holes - Jasmine Warga.epub",
+        "timestamp": "2025-08-12T13:43:56.136Z",
+        "title": "My Heart and Other Black Holes"
+      },
+      {
+        "authors": [
+          "David Levithan",
+          "Jennifer Niven"
+        ],
+        "key": "/home/thispc/Calibre Library/David Levithan/Take Me With You When You Go (2)/Take Me With You When You Go - David Levithan.epub",
+        "pathtoebook": "/home/thispc/Calibre Library/David Levithan/Take Me With You When You Go (2)/Take Me With You When You Go - David Levithan.epub",
+        "timestamp": "2025-07-18T04:16:07.184Z",
+        "title": "Take Me With You When You Go"
+      }
+    ]
+  }
+}
